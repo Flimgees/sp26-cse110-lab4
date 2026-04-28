@@ -36,6 +36,8 @@
 
 15. The == symbol stands for equality to check if two operands are equal. However, the == symbol tries to convert and compare operands if they are different types. The === stands for strict equality and it does not try to convert operands if they are different.
 
-17. The function will return [2,4,6]. First, we start by initializing newArr and entering the for loop. The for loop calls the doSomething function for each iteration and multiples the parameter by two. For each iteration, the doubled element in the array parameter is pushed into the newArr, returning newArray that contains the doubled values of all elements in array.
-19. 
+Question 17. The function will return [2,4,6]. First, we start by initializing newArr and entering the for loop. The for loop calls the doSomething function for each iteration and multiples the parameter by two. For each iteration, the doubled element in the array parameter is pushed into the newArr, returning newArray that contains the doubled values of all elements in array.
+
+
+Question 19. The code prints the numbers 1,2,3,4 in the order of 1,4,3,2. They print in this order because 1 and 4 have no delay. Although 3 has a delay of 0ms, the setTimeout function waits until the call stack is empty before proceeding. 2 prints last as it has a print delay of 1000ms.
    
