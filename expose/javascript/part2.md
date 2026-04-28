@@ -9,3 +9,28 @@
 9. Line 11 will cause an error i is initialized with the let declamation which is in the scope of the for loop. Thus, when printing it, it will be referring to a variable that does not exist anymore.
 10. Line 12 will print the length of the parameter prices. Since length is declared as a constant, it is block scoped outside of the loop which allows us to refer to the variable's value and return it with no problems.
 11. The function will return the discounted prices of all elements within the prices array. Although discounted is declared as a const, the .push() function can still add values to the array without throwing an error since we are not reassigning the variable's value.
+12.
+    A. student.name;
+    B. student['Grad Year'];
+    C. student.greeting();
+    D. student['Favorite Teacher'].name;
+    E. student.courseLoad[0];
+13.
+  A. '32' JavaScript tells that you are adding a string to a number, so it changes the type of 2 to string and concatenates the two.
+  B. 1  Since you cannot subtract a number from a string, JavaScript changes the string type to numerical and outputs 1. 
+  C. 3 Null is treated as a zero when doing arithmetic, so it returns 3.
+  D. '3null'  Null is treated as a string when doing addition with another string, giving us '3null'
+  E. 4 When doing arithmetic, true is treated as 1, so 3 + 1 = 4.
+  F. 0 Since false is equivalent to 0 as a number and null is also treated as 0, the result is 0.
+  G. '3undefined' Since '3' is a string, undefined is considered a string by JavaScript and outputs the concatenated string.
+  H. NaN Subtraction tries to convert both sides into numbers, but undefined as a number is converted to NaN, leading the result to be NaN.
+
+14.
+    A. true The string 2 becomes a numerical value, so 2 > 1 is true.
+    B. false
+    C. true
+    D. false
+    E. false
+    F. true
+   
+   
